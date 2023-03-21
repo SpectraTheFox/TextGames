@@ -4,7 +4,6 @@ import time
 
 print("What is your name?")
 name = input()
-print(f"Hello Challenger {name}! Welcome to the Arena!\nGet ready to fight!\nGood luck!")
 questions = [
     inquirer.List('weapon',
                 message="What is your weapon?",
